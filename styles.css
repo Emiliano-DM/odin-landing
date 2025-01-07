@@ -7,10 +7,10 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: Roboto;
 }
 
 .first_main_section {
-    font-family: Roboto;
     background-color: #1f2937;
     display: flex;
     justify-content: center;
@@ -83,3 +83,40 @@ h1 {
 }
 
 
+
+.second_main_section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+    margin-top: 25px;
+}
+
+.second_main_section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+
+.illustrations {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.illustration_one,
+.illustration_two,
+.illustration_three,
+.illustration_four{
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 200px;
+}
+
+.img_wrapper {
+    flex: 0 1 200px;
+    border-radius: 8px;
+    border: 3px solid #3882f6;
+    
+}
